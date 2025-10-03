@@ -1,0 +1,53 @@
+@import url(style.css);
+
+.grid-areas{
+  display: grid;
+
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+
+  grid-template-areas: "header header header header header header header header header header header header " 
+                       "header header header header header header header header header header header header " 
+                       "formulario formulario formulario formulario . violeta . . . . . ."
+                       "formulario formulario formulario formulario . violeta . . . . . ."
+                       "formulario formulario formulario formulario . violeta verde verde . . . ."
+                       "formulario formulario formulario formulario . violeta verde verde . . . ."
+                       "card card card card card violeta verde verde . . . . "
+                       "card card card card card violeta verde verde . . . . "
+                       "card card card card card violeta . . rojo rojo rojo rojo "
+                       "card card card card card violeta . . rojo rojo rojo rojo "
+                       "card card card card card violeta . . rojo rojo rojo rojo "
+                       "card card card card card violeta . . rojo rojo rojo rojo ";
+                        
+
+}
+
+.header{
+  grid-area: header;
+  background-color: #fff;
+}
+
+.formulario{
+  grid-area: formulario;
+  background-color: rgb(247, 247, 1);
+}
+
+.card{
+  grid-area: card;
+  background-color: blue;
+}
+
+.rojo{
+  grid-area: rojo;
+  background-color: red;
+}
+
+.verde{
+  grid-area: verde;
+  background-color: limegreen;
+}
+
+.violeta{
+  grid-area: violeta;
+  background-color: purple;
+}

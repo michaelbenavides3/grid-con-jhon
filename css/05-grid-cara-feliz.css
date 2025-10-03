@@ -1,0 +1,152 @@
+@import url(style.css);
+
+.grid-feliz{
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20,1fr);
+
+  grid-template-areas:
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . " 
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . ojos ojos ojos . . ojo-rojo ojo-rojo ojo-rojo . . . . . . "
+                      ". . . . . . ojos ojos ojos . . ojo-rojo ojo-rojo ojo-rojo . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . naris-1 naris-1 . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . risa1 . . . . . . . . . . . . risa15 . . . "
+                      ". . . risa2 . . . . . . . . . . . risa16 . . . . "
+                      ". . . . risa3 . . risa17 . risa18 . risa19 . . risa13 . . . . . "
+                      ". . . . . risa4 . . risa20 . risa21 . . risa12 . . . . . . "
+                      ". . . . lengua-2 lengua-1 risa5 risa6 risa7 risa8 risa9 risa10 risa11 . . . . . . . "
+                      ". . . . lengua-3 lengua-4 . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . "
+                      ". . . . . . . . . . . . . . . . . . . . ";
+
+
+}
+
+.ojo-1{
+  grid-area: ojos;
+  background-color: yellow;
+}
+
+.ojo-2{
+  grid-area: ojo-rojo;
+  background-color: red;
+}
+
+.naris{
+  grid-area: naris-1;
+  background-color: orange;
+}
+
+.sonrisa-1{
+  grid-area: risa1;
+  background-color: #fff;
+}
+.sonrisa-2{
+  grid-area: risa2;
+  background-color: #fff;
+}
+.sonrisa-3{
+  grid-area: risa3;
+  background-color: #fff;
+}
+.sonrisa-4{
+  grid-area: risa4;
+  background-color: #fff;
+}
+.sonrisa-5{
+  grid-area: risa5;
+  background-color: #fff;
+}
+.sonrisa-6{
+  grid-area: risa6;
+  background-color: #fff;
+}
+.sonrisa-7{
+  grid-area: risa7;
+  background-color: #fff;
+}
+.sonrisa-8{
+  grid-area: risa8;
+  background-color: #fff;
+}
+.sonrisa-9{
+  grid-area: risa9;
+  background-color: #fff;
+}
+.sonrisa-10{
+  grid-area: risa10;
+  background-color: #fff;
+}
+.sonrisa-11{
+  grid-area: risa11;
+  background-color: #fff;
+}
+.sonrisa-12{
+  grid-area: risa12;
+  background-color: #fff;
+}
+.sonrisa-13{
+  grid-area: risa13;
+  background-color: #fff;
+}
+.sonrisa-14{
+  grid-area: risa14;
+  background-color: #fff;
+}
+.sonrisa-15{
+  grid-area: risa15;
+  background-color: #fff;
+}
+.sonrisa-16{
+  grid-area: risa16;
+  background-color: #fff;
+}
+.sonrisa-17{
+  grid-area: risa17;
+  background-color: #fff;
+}
+.sonrisa-18{
+  grid-area: risa18;
+  background-color: #fff;
+}
+.sonrisa-19{
+  grid-area: risa19;
+  background-color: #fff;
+}
+.sonrisa-20{
+  grid-area: risa20;
+  background-color: #fff;
+}
+.sonrisa-21{
+  grid-area: risa21;
+  background-color: #fff;
+}
+.sonrisa-22{
+  grid-area: risa22;
+  background-color: #fff;
+}
+
+.lengua1{
+  grid-area: lengua-1;
+  background-color: red;
+}
+.lengua2{
+  grid-area: lengua-2;
+  background-color: red;
+}
+.lengua3{
+  grid-area: lengua-3;
+  background-color: red;
+}
+.lengua4{
+  grid-area: lengua-4;
+  background-color: red;
+}

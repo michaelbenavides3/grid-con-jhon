@@ -1,0 +1,9 @@
+@import url(style.css);
+
+.grid-explicita {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 200px; */
+  grid-template-columns: 200px repeat(6, 1fr) 200px;
+  /* grid-template-rows: 1fr 2fr 1fr; */
+  grid-template-rows: repeat(3, 1fr);
+}

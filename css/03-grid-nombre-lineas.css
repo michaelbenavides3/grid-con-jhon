@@ -1,0 +1,35 @@
+@import url(style.css);
+
+.contenedor{
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  grid-template-columns: [linea-columna-1]1fr [linea-columna-2]1fr [linea-columna-3]1fr
+  [linea-columna-4]1fr
+  [linea-columna-5]1fr;
+
+  grid-template-rows: [linea-rows-1]1fr [linea-rows-2]1fr [linea-rows-3]1fr
+  [linea-rows-4]1fr
+  [linea-rows-5]1fr;
+  
+  /* [linea-rows-4]1fr; */
+
+  /* agregar estilos al hijo 3 */
+  .item:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: dodgerblue;
+    background-color: red;
+    grid-row:linea-rows-1/linea-rows-5 ;
+    grid-column: linea-columna-2/linea-columna-4;
+  }
+
+  .item:nth-child(6){
+    background-color: dodgerblue;
+    grid-column: linea-columna-4/linea-columna-6;
+  }
+}
