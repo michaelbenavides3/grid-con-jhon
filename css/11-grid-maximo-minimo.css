@@ -1,0 +1,13 @@
+@import url(style.css);
+
+.grid-maximo-minimo{
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 200px);
+  /* con minmax se define el tamaño minimo y maximo, para cuando sea responsivo */
+  /* grid-template-columns: repeat(4), minmax(100px 200px); */
+  grid-template-columns: repeat(4), minmax(min-content 200px);
+  grid-template-columns: repeat(4), minmax(max-content 100px);
+  /* grid-template-rows: repeat(); */
+}
